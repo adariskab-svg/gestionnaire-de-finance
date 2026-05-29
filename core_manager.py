@@ -1,30 +1,9 @@
-"""
-💰 Personal Finance Manager
-PARTIE 3 — Gestionnaire de base : FinanceManager
-Membre : ___________________________
-
-Contenu :
-  - Classe FinanceManager (logique métier principale)
-    · Propriétés : transactions, users, credentials, monthly_budget, alert_threshold
-    · Méthodes   : load(), save(), add_transaction(), add_user(), update_user(),
-                   delete_user(), delete_transaction(), authenticate(),
-                   calculate_monthly_stats(), view_transactions(), view_users(),
-                   search_users(), monthly_summary()
-
-Dépendances :
-  - partie1_config_persistance.py  →  load_data(), save_data(), FILE_PATH
-  - partie2_modeles_transaction.py →  IncomeTransaction, ExpenseTransaction
-  - partie4_budget_affichage.py    →  line()  (utilisée dans view_transactions, etc.)
-"""
-
 from datetime import datetime
 
-# Ces imports viennent des autres parties du projet
+
 from partie1_config_persistance import load_data, save_data, FILE_PATH
 from partie2_modeles_transaction import IncomeTransaction, ExpenseTransaction
 
-
-# ── FinanceManager ────────────────────────────────────────────────────────────
 
 
 class FinanceManager:
