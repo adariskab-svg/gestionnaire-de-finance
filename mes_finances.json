@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "type": "income",
+      "description": "revenu",
+      "amount": 150000.0,
+      "category": "Income",
+      "date": "2026-05-28"
+    },
+    {
+      "type": "expense",
+      "description": "moto",
+      "amount": 1500.0,
+      "category": "Transport",
+      "date": "2026-05-28"
+    },
+    {
+      "type": "income",
+      "description": "dfdi",
+      "amount": 566.0,
+      "category": "Income",
+      "date": "2026-05-28"
+    },
+    {
+      "type": "income",
+      "description": "revenu",
+      "amount": 120000.0,
+      "category": "Income",
+      "date": "2026-05-28"
+    },
+    {
+      "type": "expense",
+      "description": "moto",
+      "amount": 90000.0,
+      "category": "Transport",
+      "date": "2026-05-28"
+    },
+    {
+      "type": "expense",
+      "description": "viande",
+      "amount": 1500.0,
+      "category": "Food",
+      "date": "2026-05-28"
+    }
+  ],
+  "monthly_budget": 150000.0,
+  "alert_threshold": 75.0,
+  "users": [
+    {
+      "username": "adaris",
+      "password": "adaris",
+      "name": "johan",
+      "email": "adariskab@gmail.com"
+    }
+  ],
+  "credentials": {
+    "username": "admin",
+    "password": "admin123"
+  }
+}
