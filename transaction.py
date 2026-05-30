@@ -1,3 +1,18 @@
+"""
+💰 Personal Finance Manager
+PARTIE 2 — Modèles OOP : Transaction
+Membre : _________
+
+Contenu :
+  - Classe abstraite Transaction (ABC)
+  - Classe IncomeTransaction
+  - Classe ExpenseTransaction
+
+Dépendances : importer depuis partie1_config_persistance.py
+"""
+
+from abc import ABC, abstractmethod
+from datetime import datetime
 # ── POO models ───────────────────────────────────────────────────────────────
 
 
